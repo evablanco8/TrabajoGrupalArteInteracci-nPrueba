@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: ab5f478de5e30f24da44794929ca5037
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2529887890256000729
+    second: Asset_Movimiento 2_0
+  - first:
+      213: 6186177942825791516
+    second: Asset_Movimiento 2_1
+  - first:
+      213: 1865232026908475248
+    second: Asset_Movimiento 2_2
+  - first:
+      213: -8221385482308695743
+    second: Asset_Movimiento 2_3
+  - first:
+      213: -1463334175448543493
+    second: Asset_Movimiento 2_4
+  - first:
+      213: 1129130402166625877
+    second: Asset_Movimiento 2_5
+  - first:
+      213: -255895756243335326
+    second: Asset_Movimiento 2_6
+  - first:
+      213: -335519334032723006
+    second: Asset_Movimiento 2_7
+  - first:
+      213: 3596886464804862216
+    second: Asset_Movimiento 2_8
+  - first:
+      213: -412034537781213797
+    second: Asset_Movimiento 2_9
+  - first:
+      213: -478387482788753442
+    second: Asset_Movimiento 2_10
+  - first:
+      213: -7440486755447195578
+    second: Asset_Movimiento 2_11
+  - first:
+      213: -1477952015032250681
+    second: Asset_Movimiento 2_12
+  - first:
+      213: 2144004159029829614
+    second: Asset_Movimiento 2_13
+  - first:
+      213: 9152324766127825063
+    second: Asset_Movimiento 2_14
+  - first:
+      213: 1898689534122844954
+    second: Asset_Movimiento 2_15
+  - first:
+      213: 8664651291906633912
+    second: Asset_Movimiento 2_16
+  - first:
+      213: 1283021566113713564
+    second: Asset_Movimiento 2_17
+  - first:
+      213: -4923859939286436526
+    second: Asset_Movimiento 2_18
+  - first:
+      213: -6988614842465911907
+    second: Asset_Movimiento 2_19
+  - first:
+      213: 1108497145090707541
+    second: Asset_Movimiento 2_20
+  - first:
+      213: 4624859058397836460
+    second: Asset_Movimiento 2_21
+  - first:
+      213: 7640486979540250333
+    second: Asset_Movimiento 2_22
+  - first:
+      213: 2010626352947614825
+    second: Asset_Movimiento 2_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Asset_Movimiento 2_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 625
+        width: 51
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7298ab32e5804ecd0800000000000000
+      internalID: -2529887890256000729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Movimiento 2_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 625
+        width: 53
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10fc7f2018b9d550800000000000000
+      internalID: 6186177942825791516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Movimiento 2_2
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 625
+        width: 53
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07fbf8365a2a2e910800000000000000
+      internalID: 1865232026908475248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Movimiento 2_3
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 625
+        width: 53
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149cf6d6675c7ed80800000000000000
+      internalID: -8221385482308695743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Movimiento 2_4
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 625
+        width: 53
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe43bc025131bbe0800000000000000
+      internalID: -1463334175448543493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Movimiento 2_5
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 625
+        width: 51
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5565c3e4e1a7baf00800000000000000
+      internalID: 1129130402166625877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Movimiento 2_6
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 422
+        width: 51
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267069d5a20e27cf0800000000000000
+      internalID: -255895756243335326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Movimiento 2_7
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 422
+        width: 53
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c334bf71fef75bf0800000000000000
+      internalID: -335519334032723006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Movimiento 2_8
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 422
+        width: 53
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809ba10ce25bae130800000000000000
+      internalID: 3596886464804862216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Movimiento 2_9
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 422
+        width: 53
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95cb5c55c8284af0800000000000000
+      internalID: -412034537781213797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Movimiento 2_10
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 422
+        width: 53
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf02677e1d6c59f0800000000000000
+      internalID: -478387482788753442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Movimiento 2_11
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 422
+        width: 51
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6483291a7b41eb890800000000000000
+      internalID: -7440486755447195578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Movimiento 2_12
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 222
+        width: 51
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce0eec09724d7be0800000000000000
+      internalID: -1477952015032250681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Movimiento 2_13
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 222
+        width: 53
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eefdee75c6801cd10800000000000000
+      internalID: 2144004159029829614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Movimiento 2_14
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 222
+        width: 53
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a02f0a32e6930f70800000000000000
+      internalID: 9152324766127825063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Movimiento 2_15
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 222
+        width: 53
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13e4245210895a10800000000000000
+      internalID: 1898689534122844954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Movimiento 2_16
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 222
+        width: 53
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b079b451760f3870800000000000000
+      internalID: 8664651291906633912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Movimiento 2_17
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 222
+        width: 51
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d8f5f01553ec110800000000000000
+      internalID: 1283021566113713564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Movimiento 2_18
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 27
+        width: 51
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2553e03197feaabb0800000000000000
+      internalID: -4923859939286436526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Movimiento 2_19
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 27
+        width: 53
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9bfbcaf3d3730f90800000000000000
+      internalID: -6988614842465911907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Movimiento 2_20
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 27
+        width: 53
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5509aa7c74c226f00800000000000000
+      internalID: 1108497145090707541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Movimiento 2_21
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 27
+        width: 53
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4fc006fccce2040800000000000000
+      internalID: 4624859058397836460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Movimiento 2_22
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 27
+        width: 53
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde6e764d66780a60800000000000000
+      internalID: 7640486979540250333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Movimiento 2_23
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 27
+        width: 51
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9645b77e30e27eb10800000000000000
+      internalID: 2010626352947614825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Asset_Movimiento 2_0: -2529887890256000729
+      Asset_Movimiento 2_1: 6186177942825791516
+      Asset_Movimiento 2_10: -478387482788753442
+      Asset_Movimiento 2_11: -7440486755447195578
+      Asset_Movimiento 2_12: -1477952015032250681
+      Asset_Movimiento 2_13: 2144004159029829614
+      Asset_Movimiento 2_14: 9152324766127825063
+      Asset_Movimiento 2_15: 1898689534122844954
+      Asset_Movimiento 2_16: 8664651291906633912
+      Asset_Movimiento 2_17: 1283021566113713564
+      Asset_Movimiento 2_18: -4923859939286436526
+      Asset_Movimiento 2_19: -6988614842465911907
+      Asset_Movimiento 2_2: 1865232026908475248
+      Asset_Movimiento 2_20: 1108497145090707541
+      Asset_Movimiento 2_21: 4624859058397836460
+      Asset_Movimiento 2_22: 7640486979540250333
+      Asset_Movimiento 2_23: 2010626352947614825
+      Asset_Movimiento 2_3: -8221385482308695743
+      Asset_Movimiento 2_4: -1463334175448543493
+      Asset_Movimiento 2_5: 1129130402166625877
+      Asset_Movimiento 2_6: -255895756243335326
+      Asset_Movimiento 2_7: -335519334032723006
+      Asset_Movimiento 2_8: 3596886464804862216
+      Asset_Movimiento 2_9: -412034537781213797
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
