@@ -1,42 +1,33 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-#if ENABLE_INPUT_SYSTEM
-using UnityEngine.InputSystem;
-#endif
 
-public class InteractTriggerScene : MonoBehaviour
+public class CartelScript : MonoBehaviour
 {
-    public string sceneToLoad; // Escena destino
-    private bool playerInRange = false;
-
-    private void Update()
+    public bool enZona;
+    public GameObject textoCartel;
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        if (playerInRange)
+        if (collision.gameObject.CompareTag("Player"))
         {
-#if ENABLE_INPUT_SYSTEM
-            if (Keyboard.current != null && Keyboard.current.eKey.wasPressedThisFrame)
-                SceneManager.LoadScene(sceneToLoad);
-#else
-            if (Input.GetKeyDown(KeyCode.E))
-                SceneManager.LoadScene(sceneToLoad);
-#endif
+            enZona = true;
+            textoCartel.SetActive(true);
         }
     }
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
-            playerInRange = true;
-            Debug.Log("Jugador en rango. Presiona E");
+            enZona = false;
+            textoCartel.SetActive(false);
         }
     }
-
-    private void OnTriggerExit2D(Collider2D collision)
+    void Update()
     {
-        if (collision.CompareTag("Player"))
+        //que se tenga que pulsar una tecla para cambiar de escena
+        if (Input.GetKeyDown(KeyCode.E) && enZona==true)
         {
-            playerInRange = false;
+            //cambiar de escena
+            SceneManager.LoadScene("telecinematica");
         }
     }
 }
