@@ -1,71 +1,46 @@
 using UnityEngine;
 
-public class NPCMovimiento : MonoBehaviour
+public class NPCMovement : MonoBehaviour
 {
-    public Transform[] puntos;   // aquí pones 3 puntos
+    public Transform[] puntos;
     public float velocidad = 2f;
 
     private int puntoActual = 0;
-    private Animator animator;
 
     void Start()
     {
-        animator = GetComponent<Animator>();
+        // Si el primer punto coincide con la posición inicial,
+        // se salta automáticamente al siguiente.
+        if (puntos.Length > 0)
+        {
+            if (Vector3.Distance(transform.position, puntos[0].position) < 0.8f)
+            {
+                puntoActual = 1;
+            }
+        }
     }
 
     void Update()
     {
-        MoverNPC();
-    }
+        if (puntos.Length == 0)
+            return;
 
-    public void MoverNPC()
-    {
-        Vector3 destino = puntos[puntoActual].position;
+        Transform destino = puntos[puntoActual];
 
-        Vector3 direccion = destino - transform.position;
+        transform.position = Vector3.MoveTowards(transform.position, destino.position, velocidad * Time.deltaTime);
 
-        CambiarAnimacion(direccion);
-
-        transform.position = Vector3.MoveTowards(
-            transform.position,
-            destino,
-            velocidad * Time.deltaTime
-        );
-
-        if (Vector3.Distance(transform.position, destino) <= 0.01f)
+        if (Vector3.Distance(transform.position, destino.position) < 0.05f)
         {
-            puntoActual = puntoActual + 1;
+            Debug.Log("Llego al punto: " + puntoActual);
+
+            puntoActual++;
 
             if (puntoActual >= puntos.Length)
             {
                 puntoActual = 0;
             }
-        }
-    }
 
-    public void CambiarAnimacion(Vector3 direccion)
-    {
-        if (Mathf.Abs(direccion.x) > Mathf.Abs(direccion.y))
-        {
-            if (direccion.x > 0)
-            {
-                animator.Play("Movimiento Derecha");
-            }
-            else
-            {
-                animator.Play("Movimiento Izquierda");
-            }
-        }
-        else
-        {
-            if (direccion.y > 0)
-            {
-                animator.Play("Movimiento Detrás");
-            }
-            else
-            {
-                animator.Play("Movimiento Frente");
-            }
+            Debug.Log("Ahora va al punto: " + puntoActual);
         }
     }
 }
