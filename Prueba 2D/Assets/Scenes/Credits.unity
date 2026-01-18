@@ -404,7 +404,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 8
+    m_FontSize: 6
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -415,10 +415,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "HISTORIA\n\nLOGOTIPO\nEva Blanco de las Muelas\n\nMEN\xDA\nIn\xE9s Hontana
-    Pe\xF1a\n\nPERSONAJES\nDise\xF1o: Eva Blanco de las Muelas\nAnimaciones: Eva
-    Blanco de las Muelas\nProgramaci\xF3n: Eva Blanco de las Muelas\n\nOBJETOS\nDise\xF1o:\nProgramaci\xF3n:\n\nESCENAS\nDise\xF1o:
-    \nProgramaci\xF3n:\n\nCINEM\xC1TICAS\n"
+  m_Text: "LOGOTIPO\nEva Blanco de las Muelas\n\nMEN\xDA\nIn\xE9s Hontana Pe\xF1a\n\nPERSONAJES\nEva
+    Blanco de las Muelas\n\nDISE\xD1O\nYanira\n\nNIVEL 1\nEva Blanco de las Muelas\n\nNIVEL
+    2\n\n\nNIVEL 3\nEva Blanco de las Muelas\n\nCINEM\xC1TICAS\nTelevisi\xF3n:\nS\xF3tano:\n"
 --- !u!222 &416698549
 CanvasRenderer:
   m_ObjectHideFlags: 0

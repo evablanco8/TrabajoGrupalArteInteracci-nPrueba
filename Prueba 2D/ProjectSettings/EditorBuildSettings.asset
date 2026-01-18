@@ -6,14 +6,26 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: a6a6e12b4dc39ca4cbe685b137d115ce
+  - enabled: 1
     path: Assets/Scenes/Nivel1.unity
     guid: 05a27a7341e03c44aaa2ccad0063d737
   - enabled: 1
     path: Assets/Scenes/Nivel2.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/Scenes/Nivel3.unity
+    guid: 8be5095a9a2cfbb44b47ad4c59657bcb
+  - enabled: 1
+    path: Assets/Scenes/intro2.unity
+    guid: e860428236ed7784b99edc94d9ebed01
+  - enabled: 1
     path: Assets/Scenes/telecinematica.unity
     guid: 712e57fd32b1d5c4f8246596254e67df
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 4eeb0f8691d590e40a19aea5c247c4e7
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
