@@ -4,9 +4,6 @@ using System.Collections;
 
 public class CasaScript : MonoBehaviour
 {
-    [Header("Zonas")]
-    public Collider2D zonaVision;
-    public Collider2D zonaCasa; 
 
     public bool enZona;
     public bool tiempoEspera;
@@ -19,56 +16,38 @@ public class CasaScript : MonoBehaviour
         vision = false;
         enZona =false;
     }
+
     IEnumerator EsperarDosMinutos()
     {
         yield return new WaitForSeconds(120f); // 2 minutos
         tiempoEspera = true;
     }
+
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!collision.gameObject.CompareTag("Player"))
-        {
-            return;
-        }
-
-        // ZONA DE VISIÓN (la lejana)
-        if (collision == zonaVision)
-        {
-            vision = true;
-        }
-
-        // ZONA DE LA CASA (donde está el objeto)
-        if (collision == zonaCasa)
+        if (collision.CompareTag("Player"))
         {
             enZona = true;
         }
     }
+
     void OnTriggerExit2D(Collider2D collision)
     {
-        if (!collision.gameObject.CompareTag("Player"))
-        {
-            return;
-        }
-
-        if (collision == zonaVision)
-        {
-            vision = false;
-        }
-
-        if (collision == zonaCasa)
+        if (collision.CompareTag("Player"))
         {
             enZona = false;
         }
     }
+
     void Update()
     {
         if (tiempoEspera==true && vision==true)
         {
-           gameObject.SetActive(false);
+           GetComponent<SpriteRenderer>().enabled = false;
         }
-        if (vision==false && enZona==true)
+        if (vision==true && enZona==true)
         {
-            SceneManager.LoadScene("Nivel 2");
+            SceneManager.LoadScene("Nivel2");
         }
     }
 }
